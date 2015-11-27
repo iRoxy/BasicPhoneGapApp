@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+        <title>Basic Phonegap</title>
+    </head>
+    <body>
+          <div data-role="page" id="home"> <!-- Page Index Start -->
+
+            <header data-role="header"> <!-- Header -->
+              <h1>FooBar Web Design</h1>
+            </header>
+
+            <div data-role="content"> <!-- Content -->
+              <nav data-role="navbar">
+                <ul>
+                  <li><a href="#home" class="ui-btn-active">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+
+              <h3> Welcome!</h3>
+              <img class="banner" src="img/banner.png">
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                 dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id
+                  est laborum."</p>
+              <a href="#contact" class="ui-shadow ui-btn ui-corner-all">Contact us today!</a>
+            </div>
+
+            <footer data-role="footer"> <!-- Footer -->
+              <h3>Copyright &copy 2015</h3>
+            </footer>
+          </div> <!-- Page End -->
+
+          <div data-role="page" id="about"> <!-- Page About Start -->
+
+            <header data-role="header"> <!-- Header -->
+              <h1>About</h1>
+            </header>
+
+            <div data-role="content"> <!-- Content -->
+              <nav data-role="navbar">
+                <ul>
+                  <li><a href="#home" >Home</a></li>
+                  <li><a href="#about" class="ui-btn-active">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+
+              <h3> About Us! </h3>
+              <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                 accusantium doloremque laudantium, totam rem aperiam, eaque
+                 ipsa quae ab illo inventore veritatis et quasi architecto
+                 beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                 quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                 consequuntur magni dolores eos qui ratione voluptatem sequi
+                 nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+                 dolor sit amet, consectetur, adipisci velit, sed quia non
+                 numquam eius modi tempora incidunt ut labore et dolore magnam
+                 aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+                 nostrum exercitationem ullam corporis suscipit laboriosam,
+                 nisi ut aliquid ex ea commodi consequatur? </p>
+            </div>
+
+            <footer data-role="footer"> <!-- Footer -->
+              <h3>Copyright &copy 2015</h3>
+            </footer>
+          </div> <!-- Page End -->
+
+          <div data-role="page" id="contact"> <!-- Page Contact Start -->
+
+            <header data-role="header"> <!-- Header -->
+              <h1>Contact</h1>
+            </header>
+
+            <div data-role="content"> <!-- Content -->
+              <nav data-role="navbar">
+                <ul>
+                  <li><a href="#home" >Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact" class="ui-btn-active">Contact</a></li>
+                </ul>
+              </nav>
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2926.0592206418114!2d-71.0053294555718!3d42.829362846287545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e2fd2c74fb2e89%3A0x4b2b1199a9175d3f!2s89+W+Main+St%2C+Merrimac%2C+MA+01860!5e0!3m2!1sen!2sus!4v1432052269112" width="450" height="300" frameborder="0" style="border:0"></iframe>
+                    </div>
+                      <h3>Location</h3>
+                        <ul>
+                          <li><strong>FooBar Web Design</strong></li>
+                          <li>89 West main st</li>
+                          <li>Merrimac MA 01860</li>
+                          <li><strong>Email: </strong> brad@foobar.com</li>
+                          <li><strong>Phone: </strong> 978-555-5555</li>
+                          </ul>
+                </div>
+            <footer data-role="footer"> <!-- Footer -->
+              <h3>Copyright &copy 2015</h3>
+            </footer>
+          </div> <!-- Page End -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+    </body>
+</html>
